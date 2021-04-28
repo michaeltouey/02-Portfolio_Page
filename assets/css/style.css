@@ -75,6 +75,7 @@ nav a {
 nav a:hover {
   background-size: 100% 100%;
   color: var(--primary);
+  color: white;
 }
 
 nav a:last-child {
@@ -86,9 +87,9 @@ main {
   margin-bottom: 45px;
 }
 
-.hero-banner {
+.experience {
   background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.18169-9/248999_10200208103273494_540381255_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_ohc=eA33HhXuJCEAX87CDla&_nc_ht=scontent-iad3-1.xx&oh=43056ee8b6f828bbfc59a8eab9c46adf&oe=60AFD462"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -101,11 +102,11 @@ main {
   text-align: right;
 }
 
-.hero-banner div {
+.experience div {
   flex: 0 0 90%;
 }
 
-.hero-banner h2 {
+.experience h2 {
   background-color: var(--secondary);
   color: var(--tertiary);
   margin: 0;
@@ -236,8 +237,8 @@ main {
   background-image: url("../images/02-portfolio-3.jpg");
 }
 
-.surf-report {
-  background-image: url("../images/02-portfolio-4.jpg");
+.calendar {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxRuOMOxWGO7AL6JrsOwOcZXZjgkem6gGnJQ&usqp=CAU");
 }
 
 /* end portfolio project images */
@@ -285,7 +286,7 @@ main {
     min-height: 150px;
   }
 
-  .hero-banner {
+  .experience {
     justify-content: center;
     text-align: center;
   }
